@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAppActivitiesRegister.Views.Home"
+             Title="Home"
+             NavigationPage.HasBackButton="False">
+    
+    <ScrollView>
+    <StackLayout BackgroundColor="Beige"
+                 x:Name="StlyHome">
+        <Label x:Name="lblHome"
+               HorizontalTextAlignment="Center"
+               FontSize="40"
+               FontAttributes="Bold"
+               TextColor="#1F728F"
+               Margin="10"
+               Text="Inicio"/>
+        <Grid BackgroundColor="Beige"
+              RowSpacing="15"
+              ColumnSpacing="5"
+              Margin="10,25,20,40"
+              Padding="10,15,10,15"
+              VerticalOptions="FillAndExpand"
+              x:Name="GridHome">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90"></RowDefinition>
+                <RowDefinition Height="90"></RowDefinition>
+                <RowDefinition Height="90"></RowDefinition>
+                <RowDefinition Height="90"></RowDefinition>
+                <RowDefinition Height="90"></RowDefinition>
+                </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.7*"></ColumnDefinition>
+                <ColumnDefinition Width="0.7*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+                <StackLayout Grid.Row="0"
+                             Grid.Column="0">
+                    <Label Text="Registro Act."
+                           HorizontalOptions="Center"
+                           TextColor="#1F728F"
+                           FontSize="Medium"
+                           FontAttributes="Bold"
+                           x:Name="lblimageregistroact"></Label>
+            <ImageButton 
+                    x:Name="btnRegistro"
+                    Source="registraract.png"
+                    Aspect="AspectFit"
+                    HeightRequest="80"
+                    WidthRequest="100"
+                    BorderWidth="3"
+                    CornerRadius="10"
+                    Padding="5"
+                    Clicked="btnRegister"></ImageButton>
+                </StackLayout>
+                <Button Grid.Row="0"
+                    Grid.Column="1"
+                    x:Name="btnReporte"
+                    Text="Reporte"
+                    TextColor="Black"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Clicked="btnReports">
+                    <Button.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="LightGray"
+                                          Offset="0.1" />
+                            <GradientStop Color="DarkGray"
+                                          Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <StackLayout Grid.Row="1"
+                             Grid.Column="0">
+                    <Label Text="Tipo Act."
+                           HorizontalOptions="Center"
+                           TextColor="#1F728F"
+                           FontSize="Medium"
+                           FontAttributes="Bold"
+                           x:Name="lblimagentipoact"></Label>
+                    <ImageButton
+                    x:Name="btnTipoActividad"
+                    Source="tipoactividad.png"
+                    Aspect="AspectFit"
+                    HeightRequest="80"
+                    WidthRequest="100"
+                    BorderWidth="3"
+                    CornerRadius="10"
+                    Padding="5"
+                    Clicked="btnActivity"></ImageButton>
+                </StackLayout>
+                <StackLayout Grid.Row="1"
+                             Grid.Column="1">
+                    <Label Text="Nuevo Usuario"
+                           HorizontalOptions="Center"
+                           TextColor="#1F728F"
+                           FontSize="Medium"
+                           FontAttributes="Bold"
+                           x:Name="lblimagenewuser"></Label>
+                <ImageButton 
+                        x:Name="btnNuevoUsuario"
+                        Source="nuevousuario.png"
+                        Aspect="AspectFit"
+                        HeightRequest="80"
+                        WidthRequest="100"
+                        BorderWidth="3"
+                        CornerRadius="10"
+                        Padding="5"
+                        Clicked="btnNuevosUsuarios"></ImageButton>
+                </StackLayout>
+                <StackLayout Grid.Row="2"
+                             Grid.Column="0">
+                    <Label Text="Act. en Proceso."
+                           HorizontalOptions="Center"
+                           TextColor="#1F728F"
+                           FontSize="Medium"
+                           FontAttributes="Bold"
+                           x:Name="lblimagenactproceso"></Label>    
+                <ImageButton
+                x:Name="btnActividadProceso"
+                Source="actividadenproceso.png"
+                Aspect="AspectFit"
+                HeightRequest="80"
+                WidthRequest="100"
+                BorderWidth="3"
+                CornerRadius="10"
+                Padding="5"
+                Clicked="btnActividadesEnProceso">
+                </ImageButton>
+                </StackLayout>
+                <Button Grid.Row="2"
+                    Grid.Column="1"
+                    x:Name="btnProbando"
+                    Text="Prueba"
+                    TextColor="Black"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Clicked="BtnProbando"
+                    IsEnabled="False">
+                    <Button.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="LightGray"
+                                          Offset="0.1" />
+                            <GradientStop Color="DarkGray"
+                                          Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            <Button Grid.Row="3"
+                    Grid.Column="0"
+                    x:Name="btnRelo"
+                    Text="Reloj"
+                    TextColor="Black"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Clicked="btnReloj"
+                    IsEnabled="False">
+                <Button.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="LightGray"
+                                        Offset="0.1" />
+                        <GradientStop Color="DarkGray"
+                                        Offset="1.0" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Grid.Row="3"
+                    Grid.Column="1"
+                    x:Name="btnListasUsuarios"
+                    Text="Lis. de Usuarios"
+                    TextColor="Black"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Clicked="btnListtaUser"
+                    IsEnabled="False">
+                <Button.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="LightGray"
+                                        Offset="0.1" />
+                        <GradientStop Color="DarkGray"
+                                        Offset="1.0" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+                <StackLayout Grid.Row="4"
+                             Grid.Column="0">
+                    <Button x:Name="btnReinicioTablas"
+                            Text="Reiniciar Tablas"
+                            TextColor="White"
+                            CornerRadius="10"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                            Clicked="btnReinicioTablas_Clicked">
+                        <Button.Background>
+                            <LinearGradientBrush>
+                                <GradientStop Color="DarkGreen"
+                                              Offset="0.1" />
+                                <GradientStop Color="Lime"
+                                              Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Image Source="reinicio.png"
+                           HeightRequest="50"
+                           WidthRequest="50"></Image>
+                </StackLayout>
+                <StackLayout Grid.Row="4"
+                             Grid.Column="1">
+                    <Label Text="Salir."
+                           HorizontalOptions="Center"
+                           TextColor="#1F728F"
+                           FontSize="Medium"
+                           FontAttributes="Bold"
+                           x:Name="lblimagensalir"></Label>
+                    <ImageButton
+                    x:Name="btnSalir"
+                    Source="salir.png"
+                    Aspect="AspectFit"
+                    HeightRequest="80"
+                    WidthRequest="100"
+                    BorderWidth="3"
+                    CornerRadius="10"
+                    Padding="5"
+                    Clicked="btnExit">
+                
+            </ImageButton>
+            </StackLayout>
+            </Grid>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

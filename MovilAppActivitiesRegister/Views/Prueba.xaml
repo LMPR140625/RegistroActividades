@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAppActivitiesRegister.Views.Prueba"
+             Title="Prueba">
+    <FlyoutPage.Flyout>
+        <ContentPage Title="My App">
+            <StackLayout>
+            <Label Text="QUE FUNCIONE"></Label>
+            <Label Text="ESTO ES UNA PRUEBA"></Label>
+            </StackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <ContentPage>
+            <Label Text="QUE PRUEBA EN PAGINA PRINCIAL"/>
+        </ContentPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

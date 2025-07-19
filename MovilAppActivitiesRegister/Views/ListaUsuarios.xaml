@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAppActivitiesRegister.Views.ListaUsuarios"
+             Title="ListaUsuarios">
+    <ScrollView>
+        <StackLayout BackgroundColor="Beige"
+                     x:Name="StlyActividadesEnProceso">
+            <Label x:Name="lblListaUser"
+                   HorizontalTextAlignment="Center"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   TextColor="#1F728F"
+                   Margin="10"
+                   Text="Lista Usuarios" />
+            <Frame VerticalOptions="FillAndExpand"
+                   CornerRadius="20"
+                   Margin="15,20,15,20"
+                   BackgroundColor="Beige"
+                   x:Name="FrameListaUsuarios">
+                <CollectionView x:Name="viewActividadesEnProceso"
+                                SelectionMode="Single">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid RowSpacing="15"
+                                  ColumnSpacing="15"
+                                  Padding="5,1,5,1"
+                                  VerticalOptions="FillAndExpand"
+                                  x:Name="GridListaUsuarios">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="80"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label x:Name="lblActividad"
+                                       Grid.Row="0"
+                                       Grid.Column="0"
+                                       Padding="20"
+                                       TextColor="#1F728F"></Label>
+                                <ImageButton x:Name="btnBorrarUsuario"
+                                             Grid.Row="0"
+                                             Grid.Column="1"
+                                             Source="tache.png"
+                                             Aspect="AspectFit"
+                                             HeightRequest="110"
+                                             WidthRequest="100"
+                                             BorderWidth="3"
+                                             CornerRadius="10"
+                                             Padding="20"></ImageButton>
+                                <ImageButton x:Name="btnEditarUsuario"
+                                             Grid.Row="0"
+                                             Grid.Column="2"
+                                             Source="actual.png"
+                                             Aspect="AspectFit"
+                                             HeightRequest="110"
+                                             WidthRequest="100"
+                                             BorderWidth="3"
+                                             CornerRadius="10"
+                                             Padding="20"></ImageButton>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

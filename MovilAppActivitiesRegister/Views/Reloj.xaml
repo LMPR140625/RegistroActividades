@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAppActivitiesRegister.Views.Reloj"
+             Title="Reloj">
+    <StackLayout VerticalOptions="FillAndExpand"
+                 BackgroundColor="#79F5D5">
+        <ImageButton x:Name="btnReloj"
+                     Source="reloj.png"
+                     Aspect="AspectFit"
+                     HeightRequest="500"
+                     WidthRequest="400"
+                     BorderWidth="3"
+                     CornerRadius="10"
+                     Padding="20"></ImageButton>
+        <Button x:Name="btnEnProceso"
+                FontAttributes="Bold"
+                HeightRequest="50"
+                WidthRequest="100"
+                Text="Actividad"
+                TextColor="White">
+            <Button.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="DarkGreen"
+                                  Offset="0.1" />
+                    <GradientStop Color="Lime"
+                                  Offset="1.0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAppActivitiesRegister.Views.TipoActividad"
+             Title="Tipo Actividad">
+    <ScrollView>
+    <StackLayout BackgroundColor="Beige"
+                 x:Name="StlyTipoActividad">
+            <Label x:Name="lblTipodeActividad"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   TextColor="#1F728F"
+                   Margin="10"
+                   Text="Tipo de Actividad"
+                   HorizontalTextAlignment="Center" />
+            <StackLayout Spacing="5">
+                
+                <Label x:Name="lblTipo"
+                       Text="Registrar Tipo de Actividad"
+                       HorizontalOptions="Center"
+                       Margin="20,10,20,10"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold" />
+                <Entry x:Name="txtTipo"
+                       TextChanged="txtTipo_TextChanged"
+                       Margin="40,10,40,10"
+                       TextColor="#1F728F"
+                       BackgroundColor="White"
+                       Placeholder="Ingresar actividad"></Entry>
+                <Label x:Name="lblDescri"
+                       Text="Descripcion"
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       HorizontalOptions="Center"
+                       Margin="20,10,20,10"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold" />
+                <Entry x:Name="txtDescri"
+                       Text=""
+                       Margin="40,10,40,10"
+                       TextColor="#1F728F"
+                       BackgroundColor="White"
+                       Placeholder="Ingresa descripcion"></Entry>
+                <!-- Boton rallito para realizar el registo o busqueda de una nuva actividad-->
+                <ImageButton x:Name="btnRegistrarBuscarActividad"
+                             Source="rayo.png"
+                             Aspect="AspectFit"
+                             HeightRequest="110"
+                             WidthRequest="100"
+                             BorderWidth="3"
+                             CornerRadius="10"
+                             Padding="15"
+                             Clicked="btnRegistrarNuevaActividad_Clicked"></ImageButton>
+                
+            </StackLayout>
+            <Frame VerticalOptions="FillAndExpand"
+                   CornerRadius="20"
+                   Margin="15,1,15,1"
+                   BackgroundColor="Beige"
+                   x:Name="FrameTipoActividad">
+                <CollectionView x:Name="viewTipoActividad">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid BackgroundColor="Beige"
+                              RowSpacing="35"
+                              ColumnSpacing="5"
+                              Padding="10,15,10,15"
+                              VerticalOptions="FillAndExpand"
+                              x:Name="GridTipoActividad">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="80"></RowDefinition>
+                                
+                            </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.4*"></ColumnDefinition>
+                                    <ColumnDefinition Width="0.4*"></ColumnDefinition>
+                                    <ColumnDefinition Width="0.4*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label  x:Name="lblTipoActividad"
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    Text="{Binding tipoActividad}"
+                                    Padding="5"
+                                    VerticalOptions="Center"
+                                    TextColor="#1F728F"></Label>
+                            <ImageButton x:Name="btnSearchOrInsert"
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   Source="botecito.png"
+                                   Aspect="AspectFit"
+                                   HeightRequest="105"
+                                   WidthRequest="105"
+                                   BorderWidth="3"
+                                   CornerRadius="10"
+                                   Padding="20">
+                                    
+                                </ImageButton>
+                                <ImageButton x:Name="btnEdit"
+                                        Grid.Row="0"
+                                        Grid.Column="2"
+                                        Source="lapicito.png"
+                                        Aspect="AspectFit"
+                                        HeightRequest="65"
+                                        WidthRequest="65"
+                                        BorderWidth="3"
+                                        CornerRadius="10"
+                                        Padding="10">
+                                    
+                                </ImageButton>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

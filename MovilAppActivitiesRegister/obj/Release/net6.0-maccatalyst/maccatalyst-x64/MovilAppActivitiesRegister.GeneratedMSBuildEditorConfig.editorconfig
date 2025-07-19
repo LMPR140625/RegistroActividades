@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovilAppActivitiesRegister
+build_property.ProjectDir = C:\Users\AORUS\source\repos\MovilAppActivitiesRegister\
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.settings.xaml
+build_metadata.AdditionalFiles.TargetPath = settings.xaml
+build_metadata.AdditionalFiles.RelativePath = settings.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Views/ActividadesEnProceso.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.ActividadesEnProceso.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ActividadesEnProceso.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ActividadesEnProceso.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Views/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Home.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Views/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Views/ModificarActividad.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.ModificarActividad.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ModificarActividad.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ModificarActividad.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Views/Prueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Prueba.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Prueba.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Prueba.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Views/Registro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Registro.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registro.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registro.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Views/Reportes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Reportes.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Reportes.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Reportes.xaml
+
+[C:/Users/AORUS/source/repos/MovilAppActivitiesRegister/Views/TipoActividad.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.TipoActividad.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TipoActividad.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TipoActividad.xaml

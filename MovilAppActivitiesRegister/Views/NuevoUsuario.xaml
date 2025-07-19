@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAppActivitiesRegister.Views.NuevoUsuario"
+             Title="">
+    <ScrollView>
+        <StackLayout BackgroundColor="DarkGreen"
+                 x:Name="StlyNewUser">
+        <Label x:Name="lblNewUser"
+               HorizontalTextAlignment="Center"
+               FontSize="40"
+               FontAttributes="Bold"
+               TextColor="White"
+               Margin="10"
+               Text="Nuevo Usuario" />
+        <Frame VerticalOptions="FillAndExpand"
+               CornerRadius="20"
+               Margin="10,20,10,20"
+               BackgroundColor="Beige"
+               x:Name="FrameNewUser">
+            <Grid BackgroundColor="Beige"
+                  RowSpacing="25"
+                  ColumnSpacing="2"
+                  VerticalOptions="FillAndExpand"
+                  x:Name="GridNewUser">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.8*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.8*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblNomUser"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold"
+                       Text="Nombre:" />
+                <Entry Grid.Row="0"
+                       Grid.Column="1"
+                       x:Name="txtNom"
+                       Text=""
+                       TextColor="#1F728F"
+                       BackgroundColor="White"
+                       Placeholder="Ingresa nombre(s)"></Entry>
+                <Label Grid.Row="1"
+                       Grid.Column="0"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold"
+                       x:Name="lblApellidoUser"
+                       Text="Apellido Paterno:" />
+                <Entry Grid.Row="1"
+                       Grid.Column="1"
+                       x:Name="txtApellidoUser"
+                       Text=""
+                       TextColor="#1F728F"
+                       BackgroundColor="White"
+                       Placeholder="apellido paterno"></Entry>
+                <Label Grid.Row="2"
+                       Grid.Column="0"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold"
+                       x:Name="lblApellidoMaterno"
+                       Text="Apellido Materno:" />
+                <Entry Grid.Row="2"
+                       Grid.Column="1"
+                       x:Name="txtApellidomaternoUser"
+                       Text=""
+                       TextColor="#1F728F"
+                       BackgroundColor="White"
+                       Placeholder="apellido materno"></Entry>
+                <Label Grid.Row="3"
+                       Grid.Column="0"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold"
+                       x:Name="lblRegisUser"
+                       Text="Nombre Usuario:" />
+                <Entry Grid.Row="3"
+                       Grid.Column="1"
+                       x:Name="txtNomUser"
+                       Text=""
+                       TextColor="#1F728F"
+                       BackgroundColor="White"
+                       Placeholder="nombre de usuario"></Entry>
+                <Label Grid.Row="4"
+                       Grid.Column="0"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold"
+                       x:Name="lblRegisPass"
+                       Text="Contraseña:" />
+                <Entry Grid.Row="4"
+                       Grid.Column="1"
+                       x:Name="txtRegisPass"
+                       Text=""
+                       TextColor="#1F728F"
+                       BackgroundColor="White"
+                       IsPassword="True"
+                       Placeholder="Ingresa contraseña"></Entry>
+                <Label Grid.Row="5"
+                       Grid.Column="0"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold"
+                       x:Name="lblConfirmarPass"
+                       Text="Confirmar Contraseña:" />
+                <Entry Grid.Row="5"
+                       Grid.Column="1"
+                       x:Name="txtConfirmarPass"
+                       Text=""
+                       TextColor="#1F728F"
+                       BackgroundColor="White"
+                       IsPassword="True"
+                       Placeholder="Confi. contraseña"></Entry>
+                <Label Grid.ColumnSpan="2"
+                       Grid.Row="6"
+                       TextColor="#1F728F"
+                       FontAttributes="Bold"
+                       x:Name="lblMensaje"
+                       Text="Gracias por ocupar la aplicacion de Lili y Luis." />
+                <!-- Boton para realizar el registro de un nuevo Usuario-->
+                    <StackLayout Grid.ColumnSpan="2"
+                                 Grid.Row="7">
+                <Button x:Name="btnRegistrarNewUser"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        Text="Registrar"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        HeightRequest="50"
+                        WidthRequest="110"
+                        Clicked="btnRegistrarNewUser_Clicked">
+                    <Button.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="DarkGreen"
+                                          Offset="0.1" />
+                            <GradientStop Color="Lime"
+                                          Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+               </StackLayout>
+              </Grid>
+        </Frame>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

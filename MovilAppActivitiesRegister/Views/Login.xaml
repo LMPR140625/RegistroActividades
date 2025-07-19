@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAppActivitiesRegister.Views.Login"
+             Title="Login Test">
+    <ScrollView>
+        <StackLayout BackgroundColor="Beige"
+                 x:Name="StlyLogin"
+                 Spacing="25">
+        <Label Text="Login"
+               x:Name="lblLogin"
+               TextColor="#1F728F"
+               FontSize="40"
+               FontAttributes="Bold"
+               Margin="20,10,20,10"
+               HorizontalTextAlignment="Center" />
+        <Image Source="user.png"
+            WidthRequest="350"
+               HeightRequest="350">
+            
+        </Image>    
+        
+       
+            <StackLayout Spacing="25"
+                         x:Name="StlyLogincuerpoUser"
+                         HorizontalOptions="Center">
+            <Frame VerticalOptions="FillAndExpand"
+                   Margin="20,5,20,5"
+                   CornerRadius="20"
+                   BackgroundColor="Beige"
+                   x:Name="FrameLoginUser">
+                <Entry x:Name="txtUser"
+                       Text=""
+                       Margin="-8"
+                       BackgroundColor="Beige"
+                       FontAttributes="Bold"
+                       TextColor="#1F728F"
+                       FontSize="Medium"
+                       Placeholder="Usuario"></Entry>
+            </Frame>
+        </StackLayout>
+        <StackLayout Spacing="15"
+                      x:Name="StlyLogiPass"
+                     HorizontalOptions="Center">
+            <Frame VerticalOptions="FillAndExpand"
+                   Margin="20,5,20,5"
+                   CornerRadius="20"
+                   x:Name="FramePass"
+                   BackgroundColor="Beige">
+                <Entry x:Name="txtPass"
+                       Text=""
+                       Margin="-8"
+                       BackgroundColor="Beige"
+                       FontAttributes="Bold"
+                       TextColor="#1F728F"
+                       FontSize="Medium"
+                       IsPassword="True"
+                       Placeholder="Contraseña"></Entry>
+                
+            </Frame>
+        </StackLayout>
+        <Button Text="Ingresar"
+                x:Name="btnIngresar"
+                TextColor="White"
+                CornerRadius="10"
+                FontSize="Medium"
+                HeightRequest="50"
+                WidthRequest="100"
+                FontAttributes="Bold"
+                Clicked="btnLogin">
+            <Button.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="DarkGreen"
+                                  Offset="0.1"/>
+                    <GradientStop Color="Lime"
+                                  Offset="1.0" />
+                </LinearGradientBrush>
+                </Button.Background>
+        </Button>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

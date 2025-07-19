@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAppActivitiesRegister.Views.Reportes"
+             Title="Reportes">
+    <StackLayout BackgroundColor="DarkGreen"
+                 x:Name="StlyReportes">
+        <!--<forms:ChartView x:Name="linesChartMeses">
+            
+        </forms:ChartView>-->
+        <Label x:Name="lblReportes"
+               HorizontalTextAlignment="Center"
+               FontSize="40"
+               FontAttributes="Bold"
+               TextColor="White"
+               Margin="10"
+               Text="Reportes" />
+        <Frame BackgroundColor="Beige"
+               VerticalOptions="FillAndExpand"
+               Margin="25,10,25,20"
+               CornerRadius="20"
+               x:Name="FrameReportes">
+            <StackLayout Spacing="50"
+                Margin="30"
+                x:Name="StlyReportesCuerpo">
+        <Button Text="Reporte 1"
+                x:Name="btnReporte1"
+                TextColor="White"
+                FontAttributes="Bold">
+                <Button.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="DarkGreen"
+                                      Offset="0.1" />
+                        <GradientStop Color="Lime"
+                                      Offset="1.0" />
+                    </LinearGradientBrush>
+                </Button.Background>
+                </Button>
+                <Button Text="Reporte 2"
+                x:Name="btnReporte2"
+                TextColor="White"
+                BackgroundColor="DarkGreen"
+                FontAttributes="Bold"></Button>
+        <Button Text="Reporte 3"
+                x:Name="btnReporte3"
+                TextColor="White">
+                <Button.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="DarkGreen"
+                                      Offset="0.1" />
+                        <GradientStop Color="Lime"
+                                      Offset="1.0" />
+                    </LinearGradientBrush>
+                </Button.Background>
+                </Button>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+  
+</ContentPage>

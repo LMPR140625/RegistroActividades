@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovilAppActivitiesRegister
+build_property.ProjectDir = C:\proyectolili\Registro de Actividades\RegistroDeActividades\MovilAppActivitiesRegister\
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.settings.xaml
+build_metadata.AdditionalFiles.TargetPath = settings.xaml
+build_metadata.AdditionalFiles.RelativePath = settings.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/ActividadesEnProceso.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.ActividadesEnProceso.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ActividadesEnProceso.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ActividadesEnProceso.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Home.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/ListaUsuarios.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.ListaUsuarios.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListaUsuarios.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListaUsuarios.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/ModificarActividad.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.ModificarActividad.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ModificarActividad.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ModificarActividad.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/NuevoUsuario.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.NuevoUsuario.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NuevoUsuario.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NuevoUsuario.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/Prueba.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Prueba.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Prueba.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Prueba.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/Registro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Registro.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registro.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registro.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/Reloj.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Reloj.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Reloj.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Reloj.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/Reportes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.Reportes.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Reportes.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Reportes.xaml
+
+[C:/proyectolili/Registro de Actividades/RegistroDeActividades/MovilAppActivitiesRegister/Views/TipoActividad.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAppActivitiesRegister.Views.TipoActividad.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TipoActividad.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TipoActividad.xaml
