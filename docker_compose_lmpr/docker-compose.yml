@@ -1,0 +1,34 @@
+version: '1.0'
+services:
+  #--------------------------------------------------------#
+  mongo_lmpr:
+        image: bitnami/mongodb:4.4
+        networks:
+            the_net:
+                aliases:
+                    - mongo_lmpr
+        environment:
+            MONGODB_ROOT_PASSWORD: r00tROOT
+            MONGODB_USERNAME: admin
+            MONGODB_PASSWORD: n1md4NiMDa
+            MONGODB_DATABASE: LMPR
+            TZ: America/Mexico_City
+            MONGODB_PORT: 27017
+        ports:
+            - 27017:27017
+        volumes:
+            - shared:/shared_data
+            - ../../db_mongo_lmpr_log_data:/data/db:delegated
+            - ../../db_mongo_lmpr_data:/bitnami/mongodb:delegated
+        restart: unless-stopped
+  web_api:
+    dockerfile: 
+  #--------------------------------------------------------#
+volumes:
+  shared:
+networks:
+  the_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 173.33.0.0/16
