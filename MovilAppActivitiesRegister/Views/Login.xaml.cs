@@ -33,7 +33,7 @@ public partial class Login : ContentPage
 
 			if (access) {
                 viewModelLogin.InsertLoginAttemp(txtUser.Text, true);
-				viewModelLogin.AnulateActivities();
+				//viewModelLogin.AnulateActivities();
                 Navigation.PushAsync(new Home(txtUser.Text));
             } else
 			{
