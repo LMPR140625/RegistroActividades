@@ -1,0 +1,24 @@
+# Use the official .NET SDK image as the base image
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
+WORKDIR /App
+
+# Copy the project file and restore dependencies
+COPY *.csproj ./
+RUN dotnet restore
+
+# Copy the rest of the application code
+COPY . ./
+
+# Publish the application
+RUN dotnet publish -c Release -o out
+
+# Use a smaller runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+WORKDIR /App
+COPY --from=build-env /App/out .
+
+# Expose the port your application listens on (e.g., 80 for HTTP)
+EXPOSE 80
+
+# Define the command to run the application
+ENTRYPOINT ["dotnet", "WebAPIRegister.dll"]
